@@ -1,0 +1,24 @@
+Question 1
+
+
+a/ 
+                  Main Program
+                        | 3
+                      fib(4)
+                2   /        \  1
+              fib(3)          fib(2)
+        1   /       \ 1      /  1   \  0
+      fib(2)       fib(1)   fib(1)   fib(0)
+  1  /      \ 0  
+fib(1)      fib(0)
+
+
+b/ 
+myst(0) = 0
+myst(1) = 1
+myst(2) = 2*myst(1) + myst(0) = 2*1 + 0 = 2
+myst(3) = 2*myst(2) + myst(1) = 2*2 + 1 = 5
+myst(4) = 2*myst(3) + myst(2) = 2*5 + 2 = 12
+
+
+
